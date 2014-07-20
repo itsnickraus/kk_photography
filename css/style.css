@@ -47,8 +47,8 @@ p{
 	font-weight: 300;
 
 }
- .navbar-brand a{
- 	font-size: 32px;
+ .navbar-brand {
+ 	font-size: 24px;
  }
 
 .dropdown-menu>li>a{

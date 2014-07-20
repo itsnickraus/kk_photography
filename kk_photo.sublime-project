@@ -4,6 +4,10 @@
 		{
 			"follow_symlinks": true,
 			"path": "css"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "Pages"
 		}
 	]
 }

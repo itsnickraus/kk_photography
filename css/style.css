@@ -47,7 +47,9 @@ p{
 	font-weight: 300;
 
 }
-
+ .navbar-brand a{
+ 	font-size: 32px;
+ }
 
 .dropdown-menu>li>a{
 	color: #2a6496;

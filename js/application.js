@@ -1,5 +1,5 @@
     $(document).ready(function(){   
-        var sudoSlider = $("#carousel").sudoSlider({
+        var sudoSlider = $(".carousel-inner").sudoSlider({
             // Autoheight is on per default.
         });
     });
@@ -25,3 +25,11 @@
         }
     });
 })
+  $(document).ready(function() {  
+  		 $(".carousel").swiperight(function() {  
+    		  $(this).carousel('prev');  
+	    		});  
+		   $(".carousel").swipeleft(function() {  
+		      $(this).carousel('next');  
+	   });  
+	});  

@@ -49,8 +49,11 @@ p{
 }
  .navbar-brand {
  	font-size: 24px;
- }
+}
 
+.navbar>.container-fluid .navbar-brand {
+margin-left: -30px;
+}
 .dropdown-menu>li>a{
 	color: #2a6496;
 	font-weight: 300;
@@ -123,6 +126,9 @@ p{
  	.fade p{
 
  	}
+ 	.navbar>.container-fluid .navbar-brand {
+margin-left: -15px;
+}
  	
  }
 

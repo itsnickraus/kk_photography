@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Kathryn Kipling Photography - Portfolio</title>
+        <title><?php wp_title('|',1,'right'); ?><?php bloginfo('name'); ?></title>
         <meta charset="UTF-8">
         <meta name=description content="Athens, GA Photographer">
         <meta name=viewport content="width=device-width, initial-scale=1">
@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet" media="screen">        
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-         <script src="/bootstrap/js/application.js" type="text/javascript" charset="utf-8" async defer></script>
+
         <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->

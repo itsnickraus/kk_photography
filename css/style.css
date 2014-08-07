@@ -144,27 +144,10 @@ margin-left: -15px;
 	background-color: rgba(255,255,255,1);
 }
 
-/*carousel style*/
-.carousel, .slide {
-    background-color: rgba(0,0,0,.5);
-    padding:3px;
-}
+/* thumb galleries styles */
 
-
-.item .thumb {
-	width: 25%;
-	cursor: pointer;
-	float: left;
-}
-.item .thumb img, .item img {
-	width: 100%;	
-}
-.clearfix{
-	
-	padding: 3px;
-}
-.carousel-control:hover{
-	color:rgba(42,100,150,1);
+#links img {
+	margin-bottom: 3px;
 }
 
 
